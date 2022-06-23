@@ -1,0 +1,17 @@
+<div class="content">
+    <div class="row">
+        {{#each dataStream}}
+        <div class="col-4">
+
+            <div class="card" style="width: 400px;">
+                <div class="card-body">
+                    <img class="artistImg" src="{{images.[1].url}}" alt="">
+                    <h5 class="card-title">{{name}}</h5>
+                    <a href="albums/{{id}}" class="card-link">View Albums</a>
+                </div>
+            </div>
+
+        </div>
+        {{/each }}
+    </div>
+</div>

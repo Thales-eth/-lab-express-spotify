@@ -1,0 +1,17 @@
+<div class="content">
+    <div class="row">
+        {{#each dataAlbum}}
+        <div class="col-4">
+
+            <div class="card" style="width: 400px;">
+                <div class="card-body">
+                    <img class="artistImg" src="{{images.[0].url}}" alt="soy una imagen">
+                    <h5 class="card-title">{{name}}</h5>
+                    <a href="viewtracks/{{id}}" class="card-link">View Tracks</a>
+                </div>
+            </div>
+
+        </div>
+        {{/each }}
+    </div>
+</div>

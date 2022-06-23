@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+}
+
+a {
+  color: #00b7ff;
+}
+
+h1 {
+  color: 15px;
+}
+
+.home-page {
+  background: url('/images/1133668.jpg');
+  background-size: cover;
+}
+
+.artistImg {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
